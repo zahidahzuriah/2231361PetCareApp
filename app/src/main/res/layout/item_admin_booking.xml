@@ -120,7 +120,8 @@
                     android:layout_height="wrap_content"
                     android:minWidth="48dp"
                     android:paddingHorizontal="16dp"
-                    android:text="Delete" />
+                    android:text="Delete"
+                    tools:ignore="TouchTargetSizeCheck" />
             </LinearLayout>
 
         </LinearLayout>
