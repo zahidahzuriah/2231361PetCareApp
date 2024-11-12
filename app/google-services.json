@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1018115391294",
+    "firebase_url": "https://fyp-915e1-default-rtdb.firebaseio.com",
+    "project_id": "fyp-915e1",
+    "storage_bucket": "fyp-915e1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018115391294:android:efaf1e7c87ad522a64b66f",
+        "android_client_info": {
+          "package_name": "com.example.a2231361fyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi8eXSLYdw1DQd6mBSS5a0uMT6TZZQ1OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018115391294:android:941c407a1b91d09264b66f",
+        "android_client_info": {
+          "package_name": "com.example.j104867petcareapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi8eXSLYdw1DQd6mBSS5a0uMT6TZZQ1OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

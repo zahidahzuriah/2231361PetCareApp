@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomizeButton">
+        <item name="android:backgroundTint">@color/CustomizeButton_light_background
+
+        </item>
+    </style>
+
+    <color name="CustomizeButton_light_background">#5271ff</color>
+</resources>

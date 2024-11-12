@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.J104867PetCareApp" parent="Theme.Material3.Light">
+
+    </style>
+
+    <style name="Theme.J104867PetCareApp" parent="Base.Theme.J104867PetCareApp" />
+</resources>

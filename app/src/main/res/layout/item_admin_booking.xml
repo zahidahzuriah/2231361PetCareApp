@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- CardView for Booking Details -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Service Name -->
+            <TextView
+                android:id="@+id/serviceNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Service Name"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Booking Date -->
+            <TextView
+                android:id="@+id/bookingDateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Booking Date"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Booking Time -->
+            <TextView
+                android:id="@+id/bookingTimeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Booking Time"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Pet Name -->
+            <TextView
+                android:id="@+id/petNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Pet Name"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- Booking Status -->
+            <TextView
+                android:id="@+id/statusTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Status"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp" />
+
+            <!-- Action Buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!-- Edit Button -->
+                <Button
+                    android:id="@+id/editBookingButton"
+                    style="@style/CustomizeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:paddingHorizontal="16dp"
+                    android:text="Edit" />
+
+                <!-- Accept Button -->
+                <Button
+                    android:id="@+id/acceptButton"
+                    style="@style/CustomizeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:paddingHorizontal="16dp"
+                    android:text="Accept" />
+
+                <!-- Pending Button -->
+                <Button
+                    android:id="@+id/pendingButton"
+                    style="@style/CustomizeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:paddingHorizontal="16dp"
+                    android:text="Pending" />
+
+                <!-- Delete Button -->
+                <Button
+                    android:id="@+id/deleteButton"
+                    style="@style/CustomizeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingHorizontal="16dp"
+                    android:text="Delete" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
